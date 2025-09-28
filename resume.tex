@@ -104,8 +104,8 @@
 \newcommand{\openSourceProjectListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\openSourceProjectListEnd}{\end{itemize}}
 
-\newcommand{\openSourceProject}[3]{
-	\resumeProjectHeading{\textbf{\href{#2}{#1}} $|$ \emph{#3}}{}
+\newcommand{\openSourceProject}[4]{
+	\resumeProjectHeading{\textbf{\href{#3}{#2}} $|$ \emph{#4}}{\textit{\small #1}}
 }
 
 \newcommand{\pr}[2]{\href{https://github.com/#1/pull/#2}{PR \##2}}
@@ -208,7 +208,7 @@
 %-----------OPEN SOURCE CONTRIBUTIONS-------
 \section{Open Source Contributions}
 	\openSourceProjectListStart
-		\openSourceProject{resume}{https://github.com/jakegut/resume}{\LaTeX, Git, Github}
+		\openSourceProject{Jake Gutierrez}{resume}{https://github.com/jakegut/resume}{\LaTeX, Git, Github}
 		\commitListStart
 		\commit{jakegut/resume}{b2a35911eb3d856577c0d5ba37cb431bc74614f5}{b2a3591
 }{Create resume.tex}{4}{1}
