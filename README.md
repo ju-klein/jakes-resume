@@ -1,8 +1,2 @@
-# resume
-LaTeX template for my personal resume
-
-Based off of [sb2nov/resume](https://github.com/sb2nov/resume/)
-
-Use it on overleaf: [Jake's Resume](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs) (Not updated)
-
-![Resume Preview](resume.png)
+# Open Source for Jake's Resume
+This is just a bunch of LaTeX commands to add Open Source Contributions to [Jake's Resume](https://github.com/jakegut/resume).
